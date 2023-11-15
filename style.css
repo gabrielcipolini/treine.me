@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  color: black;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(
+    180deg,
+    rgba(227, 255, 248, 0) 82.08%,
+    rgba(227, 255, 248, 0.38) 100%
+  );
+}
+
+.home-page {
+  margin: auto;
+  width: 1000px;
+
+  border: 1px solid white;
+}
+
+/* nav bar [open]*/
+nav {
+  margin: 65px 0 60px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav ul {
+  display: flex;
+  gap: 50px;
+}
+nav ul a {
+  font-family: "Mulish", sans-serif;
+  font-size: 18px;
+
+  opacity: 0.5;
+}
+nav ul a:hover {
+  font-weight: bold;
+  opacity: 1;
+}
+/* nav bar [close]*/
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* left container [open]*/
+main section {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 425px;
+}
+
+section h1 {
+  color: black;
+  font-family: "Mulish", sans-serif;
+  font-size: 49px;
+  font-weight: normal;
+  line-height: 56px;
+}
+
+section h1 span {
+  font-weight: bold;
+  color: #89c5cc;
+}
+
+section p,
+section p strong {
+  color: #7d7987;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 28px;
+}
+/* left container [close]*/
+
+/* btn contact [open]*/
+section a button {
+  display: flex;
+  align-items: center;
+  padding: 14px 32px;
+  gap: 10px;
+
+  background: #69b99d;
+  border: none;
+  border-radius: 4px;
+
+  cursor: pointer;
+}
+
+section a button:hover {
+  opacity: 0.8;
+}
+
+button span {
+  color: white;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+}
+/* btn contact [close]*/
+
+footer {
+  margin-top: 80px;
+
+  text-align: center;
+
+  font-family: "Open Sans", sans-serif;
+  line-height: 28px;
+}
+
+footer a {
+  font-weight: bold;
+}
+
+#balls {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
